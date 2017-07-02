@@ -1,28 +1,6 @@
-<!DOCTYPE html>
-<!--
-Created using JS Bin
-http://jsbin.com
-
-Copyright (c) 2017 by Drakenshine (http://jsbin.com/talurun/1/edit)
-
-Released under the MIT license: http://jsbin.mit-license.org
--->
-
-<html>
-<head>
-
-  <title>test</title>
-<style id="jsbin-css">
 body {
-  font-family: Arial, Verdana, sans-serif;}
-
+	font-family: Arial, Verdana, sans-serif;}
 h1, h2 {
-  color: #ee3e80;}
+	color: #ee3e80;}
 p {
-  color: #FF5733;}
-</style>
-</head>
-<body>
-
-</body>
-</html>
+	color: #665544;}
