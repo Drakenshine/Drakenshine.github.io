@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2017 by Drakenshine (http://jsbin.com/banurif/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+	<head>
+		<title>Liquid Layout</title>
+	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/en/font/megrim" type="text/css"/>
+      <link href="css/mod4.css" type="text/css" rel="stylesheet" />
+	<style id="jsbin-css">
+			* {
+				font-family: Arial, Verdana, sans-serif;
+				color: #bf9bd9;
+				text-align: center;}
+			body {
+				width: 90%;
+				margin: 0 auto;}
+			#content {
+				overflow: auto;}
+			#nav, #feature, #footer {
+				margin: 1%;}
+			.column1, .column2, .column3 {
+				width: 31.3%;
+				float: left;
+				margin: 1%;}
+			.column3 {
+				margin-right: 0%;}
+			li {
+				display: inline;
+				padding: 0.5em;}
+			#nav, #footer {
+				background-color: #8b888e;
+				padding: 0.5em 0;}
+			#feature, .article {
+				height: 10em;
+				margin-bottom: 1em;
+				background-color: #961Cf1;}
+.column1 {
+  background-color: #6ff046;
+}
+.column2 {
+  background-color: #bf46f0;
+}
+.column3 {
+ background-color: #f04646;
+}
+</style>
+</head>
+	<body>
+		<div id="header">
+			<h1>Logo</h1>
+			<div id="nav">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Products</a></li>
+					<li><a href="">Services</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="content">
+			<div id="feature">
+				<p>Feature</p>
+              <p> <img src="images/SashaSquares.jpg" alt="My Dog" width="120" height="90" /></p>
+			</div>
+			<div class="article column1">
+				<p>Column One</p>
+			</div>
+			<div class="article column2">
+				<p>Column Two</p>
+			</div>
+			<div class="article column3">
+				<p>Column Three</p>
+			</div>
+		</div>
+		<div id="footer">
+			<p>&copy; Copyright 2011</p>
+		</div>
+	</body>
+</html>
