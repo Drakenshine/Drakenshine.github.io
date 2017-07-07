@@ -1,11 +1,7 @@
-
-			body {
-				width: 90%;
-				margin: 0 auto;
-				background-image: url("images/fancy-floral-pattern-384.jpg");
-      		    background-size: 500px 300px;
-				background-position: center;
-				background-repeat: repeat;}
+			* {
+				font-family: Arial, Verdana, sans-serif;
+				color: #bf9bd9;
+				text-align: center;}
 				
 			#content {
 				overflow: auto;}
@@ -34,6 +30,14 @@
 				background-size:contain;
 				background-position: right;
 				background-repeat:no-repeat;}
+				
+			body {
+				width: 90%;
+				margin: 0 auto;
+				background-image: url("images/fancy-floral-pattern-384.jpg");
+      		    background-size: 500px 300px;
+				background-position: center;
+				background-repeat: repeat;}
 .column1 {
   background-color: #6ff046;
 }
