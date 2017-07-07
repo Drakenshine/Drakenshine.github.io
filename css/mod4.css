@@ -3,7 +3,7 @@
 				color: #bf9bd9;
 				text-align: center;}
 				
-				body {
+			body {
 				width: 90%;
 				margin: 0 auto;
 				background-image: url("https://drakenshine.github.io/images/fancy-floral-pattern-384.jpg");
@@ -44,9 +44,6 @@
 				background-size:contain;
 				background-position: right;
 				background-repeat:no-repeat;}
-				
-				}
-
 				
 
 .column1 {
