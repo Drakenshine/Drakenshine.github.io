@@ -2,6 +2,11 @@
 				font-family: Arial, Verdana, sans-serif;
 				color: #bf9bd9;
 				text-align: center;}
+			h1 {
+			text-align: center;
+			color: blue;
+			font-family: 'DancingScriptRegular';
+			font-size: 400%;}
 				
 			#content {
 				overflow: auto;}
