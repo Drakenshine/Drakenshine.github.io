@@ -26,19 +26,22 @@
 				padding: 0.5em 0;}
 			#feature, .article {
 				height: 10em;
-				margin-bottom: 1em;
+			margin-bottom: 1em;}
+
+				#feature {
 				background-color: #961Cf1;
 				background-image: url("https://drakenshine.github.io/images/SashaSquares.jpg");
 				background-size:contain;
 				background-position: right;
 				background-repeat:no-repeat;}
 				
+				}
 
 				
 			body {
 				width: 90%;
 				margin: 0 auto;
-				background-image: url("images/fancy-floral-pattern-384.jpg");
+				background-image: url("https://drakenshine.github.io/images/fancy-floral-pattern-384.jpg");
       		    background-size: 500px 300px;
 				background-position: center;
 				background-repeat: repeat;}
