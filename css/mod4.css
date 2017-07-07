@@ -2,6 +2,16 @@
 				font-family: Arial, Verdana, sans-serif;
 				color: #bf9bd9;
 				text-align: center;}
+				
+				body {
+				width: 90%;
+				margin: 0 auto;
+				background-image: url("https://drakenshine.github.io/images/fancy-floral-pattern-384.jpg");
+      		    background-size: 500px 300px;
+				background-position: center;
+				background-repeat: repeat;}
+				
+				
 			#header {
 			text-align: center;
 			color: orange;
@@ -38,13 +48,7 @@
 				}
 
 				
-			body {
-				width: 90%;
-				margin: 0 auto;
-				background-image: url("https://drakenshine.github.io/images/fancy-floral-pattern-384.jpg");
-      		    background-size: 500px 300px;
-				background-position: center;
-				background-repeat: repeat;}
+
 .column1 {
   background-color: #6ff046;
 }
