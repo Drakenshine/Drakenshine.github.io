@@ -1,6 +1,6 @@
 			body {
 				font-family: Arial, Verdana, sans-serif;
-				color: #bf9bd9;
+				color: #EFF70B;
 				text-align: center;}
 				
 			body {
@@ -36,10 +36,6 @@
 			li {
 				display: inline;
 				padding: 0.5em;}
-				
-			li {
-				color: #EFF70B;
-			}
 				
 			#nav, #footer {
 				padding: 0.5em 0;}
