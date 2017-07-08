@@ -41,6 +41,7 @@ img {
  padding-top: 10px;
 margin-top: 10px;
  text-align:center;
+  z-index:10;
 }
 
 #container {
@@ -64,5 +65,5 @@ height:10%;
    font-family: 'AvaraBold'; 
    font-weight: normal; 
    font-style: normal; 
-  fint-size: 36px;
+  font-size: 36px;
 }
