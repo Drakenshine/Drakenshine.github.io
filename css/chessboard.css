@@ -4,6 +4,9 @@ html, body {
 }
 body {
  background-image:url("http://www.planwallpaper.com/static/images/3d-widescreen-wallpaper-5.jpg");
+background-size: 12080px 800px;
+background-position: center;
+background-repeat: none;
 }
 
 .row {
@@ -42,7 +45,7 @@ height:10%;
  top:0px;
  left:0px; 
  padding:10px;
- margin:0px;
+ margin:10px;
  width:100%;
  background-color: #6A696C;
  text-align:center; 
