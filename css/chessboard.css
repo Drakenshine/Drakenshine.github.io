@@ -6,8 +6,7 @@ html, body {
 
 
 body {
- background-image:url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg"
-);
+ background-image:url("http://www.planwallpaper.com/static/images/3d-widescreen-wallpaper-5.jpg");
 }
 
 .row{
@@ -69,6 +68,6 @@ img {
 
 #footer {
  background-color: #6A696C;
- padding-bottom: 10px;
+ padding: 10px;
  text-align:center;
 }
