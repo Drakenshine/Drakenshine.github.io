@@ -13,12 +13,12 @@
 				
 				
 			#header {
-			text-align: center;
-			color: orange;
-			font-family: 'MegrimMedium'; 
-			font-weight: normal; 
-			font-style: normal; 
-			font-size: 200%;}
+				text-align: center;
+				color: orange;
+				font-family: 'MegrimMedium'; 
+				font-weight: normal; 
+				font-style: normal; 
+				font-size: 200%;}
 				
 			#content {
 				overflow: auto;}
@@ -38,9 +38,13 @@
 				padding: 0.5em 0;}
 			#feature, .article {
 				height: 10em;
-			margin-bottom: 1em;}
+				margin-bottom: 1em;}
 
-				#feature {
+			#nav {
+				color: #EFF70B;
+			}	
+				
+			#feature {
 				background-color: #961Cf1;
 				background-image: url("https://drakenshine.github.io/images/SashaSquares.jpg");
 				background-size:contain;
