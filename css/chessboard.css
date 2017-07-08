@@ -1,3 +1,22 @@
+#title {
+ position:fixed;
+ top:0px;
+ left:0px; 
+ padding:10px;
+ margin:0px;
+ width:100%;
+ background-color: #6A696C;
+ text-align:center; 
+ z-index:10;
+}
+
+h1 { 
+   font-family: 'AvaraBold'; 
+   font-weight: normal; 
+   font-style: normal; 
+  fint-size: 36px;
+}
+
 body {
  background-image:url("http://www.planwallpaper.com/static/images/3d-widescreen-wallpaper-5.jpg");
 }
@@ -28,40 +47,15 @@ background-color: white;
 
 }
 
-#title {
- position:fixed;
- top:0px;
- left:0px; 
- padding:10px;
- margin:0px;
- width:100%;
- background-color: #6A696C;
- text-align:center; 
- z-index:10;
-}
-
-h1 { 
-   font-family: 'AvaraBold'; 
-   font-weight: normal; 
-   font-style: normal; 
-  fint-size: 36px;
-}
-
 img {
  margin-left: 5px;
  margin-top:10px;
  }
 
-#container {
- margin-top:20%;
- margin-left:10%;
- margin-right:10%;
- margin-bottom:5%;
-}
-
 #footer {
  border:solid 1px;
  padding: 10px;
  margin:10px;
-  text-align:center;
+ text-align:center;
+ background-color: #6A696C;
 }
