@@ -35,8 +35,11 @@
 				
 			li {
 				display: inline;
-				color: #EFF70B;
 				padding: 0.5em;}
+				
+			li {
+				color: #EFF70B;
+			}
 				
 			#nav, #footer {
 				padding: 0.5em 0;}
