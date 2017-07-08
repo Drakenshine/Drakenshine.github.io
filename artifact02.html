@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2017 by Drakenshine (http://jsbin.com/nikogis/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="chessboard.css">
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/avara" type="text/css"/>
+  <title>Chessboard</title>
+  <h1 id="title">Chessboard</h1>
+<style id="jsbin-css">
+body {
+ background-image:url("http://www.planwallpaper.com/static/images/3d-widescreen-wallpaper-5.jpg");
+}
+
+.row{
+ position:relative;
+ margin-left:10%;
+ margin-right:10%;
+}
+
+.clear {
+clear:both;
+}
+
+.white{
+ border: 1px solid black;
+ width: 10%;
+ height: 60px;
+ background-color:white;
+ float:left;
+}
+ 
+.black{
+ border: 1px solid black;
+ width: 10%;
+ height: 60px;
+ background-color:#787878;
+ float:left;
+}
+
+#title {
+ position:fixed;
+ top:0px;
+ left:0px; 
+ padding:10px;
+ margin:0px;
+ width:100%;
+ background-color:lightyellow;
+ text-align:center; 
+ z-index:10;
+}
+
+h1 { 
+   font-family: 'AvaraBold'; 
+   font-weight: normal; 
+   font-style: normal; 
+  fint-size: 36px;
+}
+
+img {
+ margin-left: 5px;
+ margin-top:10px;
+ }
+
+#container {
+ margin-top:20%;
+ margin-left:10%;
+ margin-right:10%;
+ margin-bottom:5%;
+}
+
+#footer {
+ border:solid 1px;
+ padding: 10px;
+ margin:10px;
+  text-align:center;
+}
+</style>
+</head>
+<body>
+  
+  <div id="container"> 
+  <div class="row"> <!-- Row 1 -->
+ <div class="white"> <img src="images/black-castle.png"></div> 
+ <div class="black"> <img src="images/black-knight.png"></div> 
+ <div class="white"> <img src="images/black-bishop.png"></div> 
+ <div class="black"> <img src="images/black-queen.png"></div> 
+ <div class="white"> <img src="images/black-king.png"></div> 
+ <div class="black"> <img src="images/black-bishop.png"></div> 
+ <div class="white"> <img src="images/black-knight.png"></div> 
+ <div class="black"> <img src="images/black-castle.png"></div> 
+ </div>
+ <div class="clear"> </div>
+   <div class="row"> <!-- Row 2 -->
+ <div class="black"> <img src="images/black-pawn.png"></div> 
+ <div class="white"> <img src="images/black-pawn.png"></div> 
+ <div class="black"> <img src="images/black-pawn.png"></div> 
+ <div class="white"> <img src="images/black-pawn.png"></div>  
+ <div class="black"> <img src="images/black-pawn.png"></div> 
+ <div class="white"> <img src="images/black-pawn.png"></div> 
+ <div class="black"> <img src="images/black-pawn.png"></div> 
+ <div class="white"> <img src="images/black-pawn.png"></div> 
+ </div>
+ <div class="clear"> </div>
+   <div class="row"> <!-- Row 3 -->
+ <div class="white"></div> 
+ <div class="black"></div> 
+ <div class="white"></div> 
+ <div class="black"></div> 
+ <div class="white"></div> 
+ <div class="black"></div> 
+ <div class="white"></div> 
+ <div class="black"></div> 
+ </div>
+ <div class="clear"> </div>
+   <div class="row"> <!-- Row 4 -->
+ <div class="black"></div> 
+ <div class="white"></div> 
+ <div class="black"></div> 
+ <div class="white"></div>  
+ <div class="black"></div> 
+ <div class="white"></div> 
+ <div class="black"></div> 
+ <div class="white"></div> 
+ </div>
+ <div class="clear"> </div>
+   <div class="row"> <!-- Row 5 -->
+ <div class="white"></div> 
+ <div class="black"></div> 
+ <div class="white"></div> 
+ <div class="black"></div> 
+ <div class="white"></div> 
+ <div class="black"></div> 
+ <div class="white"></div> 
+ <div class="black"></div> 
+ </div>
+ <div class="clear"> </div>
+    <div class="row"> <!-- Row 6 -->
+ <div class="black"></div> 
+ <div class="white"></div> 
+ <div class="black"></div> 
+ <div class="white"></div>  
+ <div class="black"></div> 
+ <div class="white"></div> 
+ <div class="black"></div> 
+ <div class="white"></div> 
+ </div>
+ <div class="clear"> </div>
+    <div class="row"> <!-- Row 7 -->
+ <div class="white"> <img src="images/gold-pawn.png"> </div> 
+ <div class="black"> <img src="images/gold-pawn.png"> </div> 
+ <div class="white"> <img src="images/gold-pawn.png"> </div> 
+ <div class="black"> <img src="images/gold-pawn.png"> </div> 
+ <div class="white"> <img src="images/gold-pawn.png"> </div> 
+ <div class="black"> <img src="images/gold-pawn.png"> </div> 
+ <div class="white"> <img src="images/gold-pawn.png"> </div> 
+ <div class="black"> <img src="images/gold-pawn.png"> </div> 
+ </div>
+ <div class="clear"> </div>
+   <div class="row"> <!-- Row 6 -->
+ <div class="black"> <img src="images/gold-castle.png"> </div> 
+ <div class="white"> <img src="images/gold-knight.png"> </div> 
+ <div class="black"> <img src="images/gold-bishop.png"> </div> 
+ <div class="white"> <img src="images/gold-king.png"> </div>  
+ <div class="black"> <img src="images/gold-queen.png"> </div> 
+ <div class="white"> <img src="images/gold-bishop.png"> </div> 
+ <div class="black"> <img src="images/gold-knight.png"> </div> 
+ <div class="white"> <img src="images/gold-castle.png"> </div> 
+ </div>
+   <div class="clear"> </div>
+  <div id ="footer">
+<p><a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" /></a></p>
+  </div>
+</body>
+</html>
