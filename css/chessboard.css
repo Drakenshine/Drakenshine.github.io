@@ -45,14 +45,14 @@ img {
  text-align:center;
 }
 
-#container {
+#chessboard {
  margin-top:20%;
  margin-left:10%;
  margin-right:10%;
  margin-bottom:5%;
 }
 
-#title {
+#header {
 height:10%;
  position:fixed;
  top:0px;
