@@ -1,0 +1,53 @@
+			body {
+				font-family: Arial, Verdana, sans-serif;
+				color: #EFF70B;
+				text-align: center;}
+				
+			body {
+				width: 90%;
+				margin: 0 auto;
+				background-image: url("http://eskipaper.com/images/free-background-images-1.jpg");
+      		    background-size: 500px 300px;
+				background-position: center;
+				background-repeat: repeat;}
+				
+				
+			#header {
+				text-align: center;
+				color: orange;
+				font-family: 'MegrimMedium'; 
+				font-weight: heavy; 
+				font-style: normal; 
+				font-size: 200%;}
+				
+			#content {
+				overflow: auto;}
+			#nav, #feature, #footer {
+				margin: 1%;}
+		
+			li {
+				display: inline;
+				padding: 0.5em;}
+				
+			#nav, #footer {
+				padding: 0.5em 0;}
+				
+			#feature, .article {
+				height: 10em;
+				margin-bottom: 1em;}
+
+			#nav {
+				background-color: #8b888e;
+			}	
+			
+			#footer {
+				background-color: #0B61F7;
+			}
+				
+			#feature {
+				background-color: #961Cf1;
+				background-image: url("https://drakenshine.github.io/images/SashaSquares.jpg");
+				background-size:contain;
+				background-position: right;
+				background-repeat:no-repeat;}
+				
