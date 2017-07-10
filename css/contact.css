@@ -1,6 +1,6 @@
-body {
+			body {
 				font-family: Arial, Verdana, sans-serif;
-				color: #EFF70B;
+				color: #0BF7E6;
 				text-align: center;}
 				
 			body {
@@ -14,14 +14,15 @@ body {
 				
 			#header {
 				text-align: center;
-				color: orange;
+				color: #0BF7E6;
 				font-family: 'MegrimMedium'; 
-				font-weight: normal; 
+				font-weight: bold; 
 				font-style: normal; 
-				font-size: 200%;}
+				font-size: 250%;}
 				
 			#content {
 				overflow: auto;}
+
 			#nav, #feature, #footer {
 				margin: 1%;}
 		
@@ -33,20 +34,16 @@ body {
 				padding: 0.5em 0;}
 				
 			#feature, .article {
-				height: 10em;
+				height: 14em;
 				margin-bottom: 1em;}
 
 			#nav {
-				background-color: #8b888e;
+				background-color: #566CB2;
 			}	
 			
 			#footer {
-				background-color: #0B61F7;
+				background-color: #566CB2;
 			}
 				
 			#feature {
-				background-color: #961Cf1;
-				background-image: url("https://drakenshine.github.io/images/SashaSquares.jpg");
-				background-size:contain;
-				background-position: right;
-				background-repeat:no-repeat;}
+			background-color: #6388C1;}
