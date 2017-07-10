@@ -1,0 +1,49 @@
+			body {
+				font-family: Arial, Verdana, sans-serif;
+				color: #0BF7E6;
+				text-align: center;}
+				
+			body {
+				width: 90%;
+				margin: 0 auto;
+				background-image: url("http://eskipaper.com/images/free-background-images-1.jpg");
+      		    background-size: auto;
+				background-position: center;
+				background-repeat: initial;}
+				
+				
+			#header {
+				text-align: center;
+				color: #0BF7E6;
+				font-family: 'MegrimMedium'; 
+				font-weight: bold; 
+				font-style: normal; 
+				font-size: 250%;}
+				
+			#content {
+				overflow: auto;}
+
+			#nav, #feature, #footer {
+				margin: 1%;}
+		
+			li {
+				display: inline;
+				padding: 0.5em;}
+				
+			#nav, #footer {
+				padding: 0.5em 0;}
+				
+			#feature, .article {
+				height: 5em;
+				margin-bottom: 1em;}
+
+			#nav {
+				background-color: #566CB2;
+			}	
+			
+			#footer {
+				background-color: #566CB2;
+			}
+				
+			#feature {
+			background-color: #6388C1;}
