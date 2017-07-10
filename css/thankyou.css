@@ -6,10 +6,9 @@
 			body {
 				width: 89%;
 				margin: 0 auto;
-				background-image: linear-gradient(to right, black 0%,white 100%), url("http://eskipaper.com/images/free-background-images-1.jpg");
+				background-image: url("http://eskipaper.com/images/free-background-images-1.jpg");
       		    background-size: auto;
-				background-color: yellow;
-				background-blend-mode: darken;
+				background-color: #29418C;
 				background-position: center;
 				background-repeat: no-repeat;}
 				
