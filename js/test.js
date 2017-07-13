@@ -9,4 +9,4 @@ function myFunction() {
     } else {
         txt = "Welcome" + person + "!";
     }
-}
+} document.write(txt);
