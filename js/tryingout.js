@@ -1,11 +1,9 @@
+
  
- // This is a prompt box which asks for a name
- // The name is then displayed in the browser (only if a name is entered)
- 
- var name=prompt("Please enter your name","Enter name here");
- if (name!=null) // this means if the name is NOT empty
+ var name = prompt("What's your name?","Enter name here");
+ if (name != null) 
  {
- message="Hello " + name + "! How are you today?";
+ message="Welcome " + name + "!";
  document.write(message);
  } 
  

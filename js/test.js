@@ -1,12 +1,9 @@
-window.prompt("What is your name?");
 
-
-function myFunction() {
-    var txt;
-    var person = prompt("Enter Name", "");
-    if (person == null || person == "") {
-        txt = "User chose not to enter their name.";
-    } else {
-        txt = "Welcome" + person + "!";
-    }
-} document.write(txt);
+ 
+ var name = prompt("What's your name?","Enter name here");
+ if (name != null) 
+ {
+ message="Welcome " + name + "!";
+ document.write(message);
+ } 
+ 
