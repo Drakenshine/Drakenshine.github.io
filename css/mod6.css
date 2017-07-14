@@ -11,7 +11,7 @@ body {
   font-family: 'Open Sans', sans-serif;}
 
 h1 {
-  background: #1e1b1e url("https://drakenshine.github.io/images/travelworthylogo.jpg") no-repeat;
+  background: #1e1b1e url("https://drakenshine.github.io/images/travelworthylogo.gif") no-repeat;
   width: 230px;
   height: 180px;
   float: left;
@@ -103,7 +103,7 @@ p + h2 {
   padding: 0 50px 0 50px;
   line-height: 28px;
   text-align: left;
-  background-image: url("../images/check-cross.png");
+  background-image: url("https://drakenshine.github.io/images/check-cross.png");
   background-position: 120px 0;
   background-repeat: no-repeat;}
 
