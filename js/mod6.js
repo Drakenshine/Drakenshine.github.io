@@ -1,4 +1,4 @@
-var msg = '<p>Week 6 - Weekly Assignment </p> <br />';
+var msg = '<br /> Week 6 - Weekly Assignment';
 msg += '<p><b>page title: </b>' + document.title + '<br />';
 msg += '<b>page address: </b>' + document.URL + '<br />';
 msg += '<b>last modified: </b>' + document.lastModified + '</p>';
