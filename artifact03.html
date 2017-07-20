@@ -3,6 +3,7 @@
 <head>
 <meta name="description" content="Artifact 3 - Rhombus Example">
 <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/rhombus.css">
 <title>Artifact #3</title>
 </head>
 <body>
@@ -14,20 +15,26 @@
 <option value="#0000FF">Blue</option>
 <option value="#FF0000">Red</option>
 <option value="#FF9900">Orange</option> 
+<option value="#009900">Dark Green</option> 
+<option value="#CC99FF">Lavendar</option> 
 </select><br> 
 
 <label>Choose color for Odd position</label><br>
 <select id="colorOdd">
 <option value="#FF0099">Pink</option>
-<option value="#33FF00">Green</option>
-<option value="#660099">Purple</option> 
+<option value="#00FF00">Lime</option>
+<option value="#9900CC">Dark Purple</option>
+<option value="#000000">Black</option> 
+<option value="#66FFFF">Light Blue</option>  
 </select>
 <br>
 <label>Choose symbol for Rhombus</label>
 <select id="symbol">
 <option value="*">*</option>
 <option value="$">$</option>
-<option value="@">@</option> 
+<option value="@">@</option>
+<option value="#">#</option> 
+<option value="%">%</option>  
 </select>
 <br>
 <button onclick="createRhombus(document.getElementById('rHeight').value,
@@ -43,11 +50,7 @@ document.getElementById('symbol').value);">Display Rhombus</button>
 <div id="downLeft"></div> 
 <div id="downRight"></div>
 
-<!-- CALL YOUR JAVASCRIPT FILE IF YOU ARE USING A HOSTING ENVIRONMENT
-
-<script src=""></script>
-
--->
+  <script type="text/javascript" src="js/rhombus.js"></script>
 
 </body>
 </html>
