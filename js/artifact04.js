@@ -15,6 +15,47 @@ function ValidateForm(){
   
   
  var errorMessages ="";  // All the error messages are going to stay in this variable
+ 
+ /*********** VALIDATES FIRSTNAME ******** */
+ if (myContact.firstname.value==null ||
+ myContact.firstname.value=== "" ||
+ myContact.firstname.value.length >20 ||
+ !myContact.firstname.value.match(letters))
+ errorMessages += "<p>The Firstname must be less than 20 characters and it is required. Only letters and numbers are accepted.</p>";
+ else
+ validFirstName = true; 
+   
+     /*********** VALIDATES LASTNAME ******** */
+ if (myContact.lastname.value==null ||
+ myContact.lastname.value=== "" ||
+ myContact.lastname.value.length >50 ||
+ !myContact.lastname.value.match(letters))
+ errorMessages += "<p>The Lastname must be less than 50 characters and it is required. Only letters and numbers are accepted.</p>";
+ else
+ validLastName = true; 
+ 
+    /************ VALIDATES EMAIL************/
+  
+  //function validateEmail() {
+    var x = document.getElementById("email").value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=x.length)
+        alert("Not a valid e-mail address");
+      
+      else
+        validEmail = true;
+        //return false; 
+ 
+     /*********** VALIDATES PHONE NUMBER ******** */
+ if (myContact.phone.value==null ||
+ myContact.phone.value=== "" ||
+ myContact.phone.value.length >15 ||
+ !myContact.phone.value.match(numbers))
+ errorMessages += "<p>The Phone Nnumber must be less than 15 characters and it is required.  Only numbers are accepted.</p>";
+ else
+ validPhoneNumber = true; 
+ 
  /*********** VALIDATES USERNAME ******** */
  //Required field
 //This syntax is using name-of-form.name-of-field.value
@@ -37,36 +78,8 @@ function ValidateForm(){
  else
  validUserPassword = true; 
   
-  
-   /*********** VALIDATES FIRSTNAME ******** */
- if (myContact.firstname.value==null ||
- myContact.firstname.value=== "" ||
- myContact.firstname.value.length >20 ||
- !myContact.firstname.value.match(letters))
- errorMessages += "<p>The Firstname must be less than 20 characters and it is required. Only letters and numbers are accepted.</p>";
- else
- validFirstName = true; 
-  
-  
-     /*********** VALIDATES LASTNAME ******** */
- if (myContact.lastname.value==null ||
- myContact.lastname.value=== "" ||
- myContact.lastname.value.length >50 ||
- !myContact.lastname.value.match(letters))
- errorMessages += "<p>The Lastname must be less than 50 characters and it is required. Only letters and numbers are accepted.</p>";
- else
- validLastName = true; 
-  
 
-     /*********** VALIDATES PHONE NUMBER ******** */
- if (myContact.phone.value==null ||
- myContact.phone.value=== "" ||
- myContact.phone.value.length >15 ||
- !myContact.phone.value.match(numbers))
- errorMessages += "<p>The Phone Nnumber must be less than 15 characters and it is required.  Only numbers are accepted.</p>";
- else
- validPhoneNumber = true; 
-  
+
       /*********** VALIDATES ADDRESS ******** */
  if (myContact.address.value==null ||
  myContact.address.value=== "" )
@@ -105,18 +118,6 @@ function ValidateForm(){
  else
  validZip = true; 
    
-   /************ VALIDATES EMAIL************/
-  
-  //function validateEmail() {
-    var x = document.getElementById("email").value;
-    var atpos = x.indexOf("@");
-    var dotpos = x.lastIndexOf(".");
-    if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=x.length)
-        alert("Not a valid e-mail address");
-      
-      else
-        validEmail = true;
-        //return false; 
  document.getElementById("errorMessages").innerHTML = errorMessages;
 // Make sure you return all the boolean variables that are checking each field
  return (validUsername && validUserPassword && validFirstName && validLastName && 
