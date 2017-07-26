@@ -21,7 +21,7 @@ function ValidateForm(){
  myContact.firstname.value=== "" ||
  myContact.firstname.value.length >20 ||
  !myContact.firstname.value.match(letters))
- errorMessages += "<p>The Firstname must be less than 20 characters and it is required. Only letters and numbers are accepted.</p>";
+ errorMessages += "<p>The Firstname field is required and must be less than 20 characters (numerical and letters only).</p>";
  else
  validFirstName = true; 
    
@@ -30,7 +30,7 @@ function ValidateForm(){
  myContact.lastname.value=== "" ||
  myContact.lastname.value.length >50 ||
  !myContact.lastname.value.match(letters))
- errorMessages += "<p>The Lastname is required must be less than 50 characters (numerical and letters only).</p>";
+ errorMessages += "<p>The Lastname field is required and must be less than 50 characters (numerical and letters only).</p>";
  else
  validLastName = true; 
  
@@ -40,7 +40,7 @@ function ValidateForm(){
     var atpos = x.indexOf("@");
     var dotpos = x.lastIndexOf(".");
     if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=x.length)
-        alert("Not a valid e-mail address.  An e-mail address is required.");
+        alert("Not a valid e-mail address.  A valid e-mail address is required.");
       
       else
         validEmail = true;
@@ -50,7 +50,7 @@ function ValidateForm(){
  myContact.phone.value=== "" ||
  myContact.phone.value.length >15 ||
  !myContact.phone.value.match(numbers))
- errorMessages += "<p>The Phone Number is required and must be less than 15 numeric digits.</p>";
+ errorMessages += "<p>The Phone Number field is required and must be less than 15 numeric digits.</p>";
  else
  validPhoneNumber = true; 
  
@@ -109,7 +109,7 @@ function ValidateForm(){
        /*********** VALIDATES ZIP CODE ******** */
  if (myContact.zipcode.value==null ||
  myContact.zipcode.value=== "" ||
- myContact.zipcode.value.length >5 ||
+ myContact.zipcode.value.length >5 &&
  myContact.countries.value==="United States" &&
  myContact.zipcode.value.match(letters))
  errorMessages += "<p>The Zip Code field is required. Zip Code must be less than 5 numeric digits if located in the United States.</p>";
