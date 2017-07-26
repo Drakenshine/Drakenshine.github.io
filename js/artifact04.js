@@ -121,7 +121,7 @@ myContact.zipcode.value=== "" ||
 myContact.countries.value=="United States" &&
 myContact.zipcode.value.length >5)
  
-errorMessages += "Zip Code field is required. Zip Code field is required. 5 digit numerical zip code required for United States only."
+errorMessages += "Zip Code field is required. 5 digit numerical zip code required for United States only."
  else
  validZip = true; 
    
