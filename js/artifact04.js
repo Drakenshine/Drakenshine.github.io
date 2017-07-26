@@ -107,13 +107,22 @@ function ValidateForm(){
  //!myContact.countries.value.match(letters))
   
        /*********** VALIDATES ZIP CODE ******** */
- if (myContact.zipcode.value==null &&
- myContact.zipcode.value=== "" &&
- myContact.zipcode.value.length >10 ||
- myContact.countries.value==="United States" &&
- myContact.zipcode.value.length >5 &&
- myContact.zipcode.value.match(letters))
+ //if (myContact.zipcode.value==null ||
+ //myContact.zipcode.value=== "" ||
+ //myContact.zipcode.value.length >5 ||
+ //myContact.countries.value==="United States" &&
+ //myContact.zipcode.value.match(letters))
+ 
+ if (myContact.countries.value==="United States" &&
+ myContact.zipcode.value.match(letters) &&
+ myContact.zipcode.value.length >5)
  errorMessages += "<p>The Zip Code field is required. Zip Code must be less than 5 numeric digits if located in the United States.</p>";
+ 
+if (myContact.countries.value== "Canada" &&
+myContact.zipcode.value=== "" ||
+myContact.countries.value=="Mexico" &&
+myContact.zipcode.value=== "") 
+errorMessages += "Zip Code field is required"
  else
  validZip = true; 
    
