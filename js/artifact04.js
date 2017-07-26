@@ -114,6 +114,7 @@ function ValidateForm(){
  //myContact.zipcode.value.match(letters))
  
  if (myContact.countries.value==="United States" &&
+ myContact.zipcode.value=== "" &&
  myContact.zipcode.value.match(letters) &&
  myContact.zipcode.value.length >5)
  errorMessages += "<p>The Zip Code field is required. Zip Code must be less than 5 numeric digits if located in the United States.</p>";
