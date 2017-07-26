@@ -50,7 +50,7 @@ function ValidateForm(){
  myContact.phone.value=== "" ||
  myContact.phone.value.length >15 ||
  !myContact.phone.value.match(numbers))
- errorMessages += "<p>The Phone Number field is required and must be less than 15 numeric digits.</p>";
+ errorMessages += "<p>The Phone Number is required and must be less than 15 numeric digits.</p>";
  else
  validPhoneNumber = true; 
  
@@ -107,10 +107,11 @@ function ValidateForm(){
  //!myContact.countries.value.match(letters))
   
        /*********** VALIDATES ZIP CODE ******** */
- if (myContact.zipcode.value==null ||
- myContact.zipcode.value=== "" ||
- myContact.zipcode.value.length >5 &&
+ if (myContact.zipcode.value==null &&
+ myContact.zipcode.value=== "" &&
+ myContact.zipcode.value.length >10 ||
  myContact.countries.value==="United States" &&
+ myContact.zipcode.value.length >5 &&
  myContact.zipcode.value.match(letters))
  errorMessages += "<p>The Zip Code field is required. Zip Code must be less than 5 numeric digits if located in the United States.</p>";
  else
