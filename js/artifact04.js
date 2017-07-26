@@ -121,8 +121,7 @@ function ValidateForm(){
 //myContact.countries.value==="United States" &&
 //myContact.zipcode.value=== "" &&
 //myContact.zipcode.value.length >5)
-
-) 
+ 
 errorMessages += "Zip Code field is required."
  else
  validZip = true; 
