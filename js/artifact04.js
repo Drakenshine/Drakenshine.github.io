@@ -119,7 +119,8 @@ function ValidateForm(){
         //return false; 
  document.getElementById("errorMessages").innerHTML = errorMessages;
 // Make sure you return all the boolean variables that are checking each field
- return (validUsername && validUserPassword && validFirstName && validLastName && validPhoneNumber && validCountry && validZip && validEmail) ;
+ return (validUsername && validUserPassword && validFirstName && validLastName && 
+ validPhoneNumber && validCity && validAddress && validCountry && validZip && validEmail) ;
 }
 
     
