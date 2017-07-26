@@ -119,7 +119,8 @@ myContact.zipcode.value=== "" ||
 myContact.countries.value=="Mexico" &&
 myContact.zipcode.value=== "" ||
 myContact.countries.value=="United States" &&
-myContact.zipcode.value.length >5)
+myContact.zipcode.value.length >5 &&
+myContact.zipcode.value.match(letters))
  
 errorMessages += "Zip Code field is required. 5 digit numerical zip code required for United States only."
  else
