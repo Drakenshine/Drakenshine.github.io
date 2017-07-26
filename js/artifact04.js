@@ -53,11 +53,6 @@ function ValidateForm(){
  errorMessages += "<p>The Phone Number is required and must be less than 15 numeric digits.</p>";
  else
  validPhoneNumber = true; 
- 
- /*********** VALIDATES USERNAME ******** */
- //Required field
-//This syntax is using name-of-form.name-of-field.value
-// You can also use document.getElementById("id-of-field").value
 
 /*********** VALIDATES USERNAME ******** */
  if (myContact.username.value.length > 12 || 
