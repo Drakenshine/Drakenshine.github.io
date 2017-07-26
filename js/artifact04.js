@@ -114,14 +114,14 @@ function ValidateForm(){
  //myContact.zipcode.value.match(letters))
  
 
-if (myContact.countries.value== "Canada" &&
-myContact.zipcode.value=== "" ||
-myContact.countries.value=="Mexico" &&
+if (myContact.countries.value==="Canada" &&
+myContact.zipcode.value===="" ||
+myContact.countries.value==="Mexico" &&
 myContact.zipcode.value=== "" ||
 myContact.countries.value==="United States" &&
 myContact.zipcode.value.length >5)
  
-errorMessages += "Zip Code field is required."
+errorMessages += "Zip Code field is required. 5 digit numerical zip code required for United States only."
  else
  validZip = true; 
    
