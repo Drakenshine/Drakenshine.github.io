@@ -30,29 +30,27 @@ function ValidateForm(){
  myContact.lastname.value=== "" ||
  myContact.lastname.value.length >50 ||
  !myContact.lastname.value.match(letters))
- errorMessages += "<p>The Lastname must be less than 50 characters and it is required. Only letters and numbers are accepted.</p>";
+ errorMessages += "<p>The Lastname is required must be less than 50 characters (numerical and letters only).</p>";
  else
  validLastName = true; 
  
     /************ VALIDATES EMAIL************/
   
-  //function validateEmail() {
     var x = document.getElementById("email").value;
     var atpos = x.indexOf("@");
     var dotpos = x.lastIndexOf(".");
     if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=x.length)
-        alert("Not a valid e-mail address");
+        alert("Not a valid e-mail address.  An e-mail address is required.");
       
       else
         validEmail = true;
-        //return false; 
  
      /*********** VALIDATES PHONE NUMBER ******** */
  if (myContact.phone.value==null ||
  myContact.phone.value=== "" ||
  myContact.phone.value.length >15 ||
  !myContact.phone.value.match(numbers))
- errorMessages += "<p>The Phone Nnumber must be less than 15 characters and it is required.  Only numbers are accepted.</p>";
+ errorMessages += "<p>The Phone Number is required and must be less than 15 numeric digits.</p>";
  else
  validPhoneNumber = true; 
  
@@ -65,7 +63,7 @@ function ValidateForm(){
  if (myContact.username.value.length > 12 || 
      myContact.username.value===null || 
      myContact.username.value==="")
-    errorMessages += "<p>The Username must be less than 12 characters and it is required.</p>";
+    errorMessages += "<p>The Username field is required and must be less than 12 characters.</p>";
  else 
  validUsername =true;
 
@@ -74,7 +72,7 @@ function ValidateForm(){
  if (myContact.password.value==null ||
  myContact.password.value=== "" ||
  myContact.password.value.length >7)
- errorMessages += "<p>The Password must be less than 7 characters and it is required.</p>";
+ errorMessages += "<p>The Password field is required and must be less than 7 characters.</p>";
  else
  validUserPassword = true; 
   
@@ -94,14 +92,14 @@ function ValidateForm(){
  myContact.city.value=== "" ||
  myContact.city.value.length >15 ||
  !myContact.city.value.match(letters))
- errorMessages += "<p>The City field is required.  Only numbers are accepted.</p>";
+ errorMessages += "<p>The City field is required.</p>";
  else
  validCity = true; 
   
        /*********** VALIDATES COUNTRY ******** */
  if (myContact.countries.value==null ||
  myContact.countries.value=== "")
- errorMessages += "<p>Select a Country as it is required.</p>";
+ errorMessages += "<p>A Country selection is required.</p>";
  else
  validCountry = true; 
      
@@ -114,7 +112,7 @@ function ValidateForm(){
  myContact.zipcode.value.length >5 ||
  myContact.countries.value==="United States" &&
  myContact.zipcode.value.match(letters))
- errorMessages += "<p>The Zip Code must be less than 5 characters if in the USA and it is required.  Only numbers are accepted for USA Zip Codes only.</p>";
+ errorMessages += "<p>The Zip Code field is required. Zip Code must be less than 5 numeric digits if located in the United States.</p>";
  else
  validZip = true; 
    
