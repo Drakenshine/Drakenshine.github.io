@@ -119,6 +119,7 @@ myContact.zipcode.value=== "" ||
 myContact.countries.value=="Mexico" &&
 myContact.zipcode.value=== "" ||
 myContact.countries.value=="United States" &&
+myContact.zipcode.value=== "" &&
 myContact.zipcode.value.length == 5 &&
 myContact.zipcode.value.match(letters))
  
