@@ -107,7 +107,7 @@ function ValidateForm(){
  //!myContact.countries.value.match(letters))
   
        /*********** VALIDATES ZIP CODE ******** */
- if (myContact.zipcode.value==null ||
+ if (
  myContact.zipcode.value=== "" ||
  myContact.countries.value==="United States" &&
  myContact.zipcode.value.match(letters) &&
