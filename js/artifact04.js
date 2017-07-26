@@ -123,7 +123,7 @@ myContact.zipcode.value=== "" &&
 myContact.zipcode.value.length == 5 &&
 myContact.zipcode.value.match(letters))
  
-errorMessages += "Zip Code field is required. 5 digit numerical zip code required for United States only."
+errorMessages += "Zip Code field is required. 5 digit numerical zip code required for United States only. TEST"
  else
  validZip = true; 
    
