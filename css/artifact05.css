@@ -8,6 +8,7 @@ text-align: center;}
 }
 
 #buttons {
+	float: center;
     margin-top: 10px;
     padding-top: 2em;
 }
