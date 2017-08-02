@@ -7,15 +7,18 @@ text-align: center;}
     height: 425px;
 }
 
-
+#buttons {
+    margin-top: 10px;
+    padding-top: 2em;
+}
 
 #next {
     float: right;
-    width: 75px;
+    width: 30px;
 }
 
 #previous {
-    width: 75px;
+    width: 30px;
 }
 
 #check {
