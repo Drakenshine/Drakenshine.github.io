@@ -13,12 +13,13 @@ text-align: center;}
 }
 
 #next {
-    float: right;
-    width: 30px;
+    float: center;
+    width: 75px;
 }
 
 #previous {
-    width: 30px;
+	float: center;
+    width: 75px;
 }
 
 #check {
