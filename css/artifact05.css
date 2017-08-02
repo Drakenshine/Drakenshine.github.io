@@ -8,18 +8,17 @@ text-align: center;}
 }
 
 #buttons {
+	text-align: center;
     margin-top: 10px;
     padding-top: 2em;
 }
 
 #next {
-	text-align: center;
     float: right;
     width: 75px;
 }
 
 #previous {
-	text-align: center;
     width: 75px;
 }
 
