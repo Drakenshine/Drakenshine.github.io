@@ -9,7 +9,7 @@ var previousButton = document.getElementById("previous");
 nextButton.addEventListener("click", next, false);
 previousButton.addEventListener("click", previous, false);
 
-//setInterval(autoSlide, 5000);
+setInterval(autoSlide, 5000);
 
 function updateImage() {
     document.getElementById("slideshow").src = myImages[index];
@@ -40,6 +40,3 @@ function autoSlide() {
         next();
 }
 
-setInterval(autoSlide,2000); // Next
-var nextButton = document.getElementById("next"); 
- function updateImage(){
