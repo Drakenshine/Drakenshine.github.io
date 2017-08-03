@@ -12,7 +12,7 @@ var previousButton = document.getElementById("previous");
 nextButton.addEventListener("click", next, false);
 previousButton.addEventListener("click", previous, false);
 
-function updateImage() {
+function updateImage(){
     document.getElementById("slideshow").src = myImages[index];
     document.getElementById("slideshow").alt = captionImages[index];
     document.getElementById("caption").textContent = captionImages[index];
@@ -29,9 +29,9 @@ function previous(){
 
 function next(){
     if (myImages.length == index + 1)
-        index = 0;
+      index = 0;
     else
-        index++;
+      index++;
 
     updateImage();
 }
