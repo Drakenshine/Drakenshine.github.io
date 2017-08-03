@@ -1,5 +1,8 @@
-var myImages = ["images/Sasha01.jpg", "images/Sasha02.jpg", "images/Sasha03.jpg", "images/Sasha04.jpg", "images/Sasha05.jpg"];
-var captionImages = ["Sasha being cute", "Sasha looking over my chair arm", "Freshly groomed Sasha", "Seahawks Sasha", "Sasha wanting food"];
+var myImages = ["images/Sasha01.jpg", "images/Sasha02.jpg", "images/Sasha03.jpg", 
+"images/Sasha04.jpg", "images/Sasha05.jpg"];
+
+var captionImages = ["Sasha being cute", "Sasha looking over my chair arm", "Freshly groomed Sasha", 
+"Seahawks Sasha", "Sasha wanting food"];
 
 var index = 0;
 
@@ -15,7 +18,16 @@ function updateImage() {
     document.getElementById("caption").textContent = captionImages[index];
 }
 
-function next() {
+function previous(){
+    if (index === 0)
+      index = myImages.length - 1;
+    else
+      index--;
+
+    updateImage();
+}
+
+function next(){
     if (myImages.length == index + 1)
         index = 0;
     else
@@ -24,19 +36,9 @@ function next() {
     updateImage();
 }
 
-function previous() {
-    if (index === 0)
-        index = myImages.length - 1;
-    else
-        index--;
-
-    updateImage();
-}
-
 setInterval(autoSlide, 2000);
 
-function autoSlide() {
+function autoSlide(){
     if (document.getElementById("auto").checked)
         next();
 }
-
