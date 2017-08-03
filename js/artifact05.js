@@ -9,8 +9,6 @@ var previousButton = document.getElementById("previous");
 nextButton.addEventListener("click", next, false);
 previousButton.addEventListener("click", previous, false);
 
-setInterval(autoSlide, 5000);
-
 function updateImage() {
     document.getElementById("slideshow").src = myImages[index];
     document.getElementById("slideshow").alt = captionImages[index];
@@ -34,6 +32,8 @@ function previous() {
 
     updateImage();
 }
+
+setInterval(autoSlide, 2000);
 
 function autoSlide() {
     if (document.getElementById("auto").checked)
